@@ -6,3 +6,54 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+#header-container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding-top: 10px;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-container img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+#logo-container h1 {
+    align-self: flex-end;
+    padding-left: 10px;
+}
+
+#header-container nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#header-container nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#header-container nav ul li {
+    padding: 0 10px 10px 10px;
+}
+
+#header-container nav ul li a {
+    text-decoration: none;
+    color: black;
+}
