@@ -303,32 +303,73 @@ main {
     width: 80vw;
 }
 
+#contact #form {
+    width: 50%;
+}
+
 #contact #picture img {
     width: 300px;
     height: 300px;
 }
 
 #contact #form #form-text {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#contact #form #form-text p {
+    font-size: small;
+}
+
+#contact #form #input-container {
+    display: flex;
+    height: 100%;
 }
 
 #contact #form #form-input {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    gap: 10px;
+    padding: 10px 10px 10px 0;
 }
 
 #contact #form #form-input #fullname {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    padding-left: 10px;
 }
 
 #contact #form #form-input #email {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    padding-left: 10px;
 }
 
 #contact #form #form-input #message {
     grid-column: 1 / 3;
     grid-row: 2 / 4;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: small;
+    resize: none;
+}
+
+#contact #form #input-container button {
+    background-color: var(--light-pink);
+    border: none;
+    font-weight: 600;
+}
+
+#contact #form #input-container button:is(button:hover, button:focus) {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+#contact #picture {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
