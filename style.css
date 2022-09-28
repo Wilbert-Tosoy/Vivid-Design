@@ -74,6 +74,8 @@ header {
 }
 
 /* Main */
+
+/* Main showcase */
 main {
     display: flex;
     justify-content: center;
@@ -86,7 +88,6 @@ main {
     justify-content: space-between;
     height: 50vh;
     margin-bottom: 50px;
-    border-bottom: 1px solid black;
 }
 
 #showcase-paragraph {
@@ -114,6 +115,7 @@ main {
 #showcase-paragraph button:is(button:hover, button:focus) {
     cursor: pointer;
     outline: none;
+    transform: scale(0.9);
 }
 
 #showcase-picture {
@@ -126,4 +128,42 @@ main {
 #showcase-picture img {
     width: 300px;
     height: 300px;
+}
+
+/* Sub showcase */
+#sub-showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+}
+
+#sub-showcase-container .mini-section img {
+    width: 20px;
+    height: 20px;
+}
+
+#main-sub-showcase {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+
+#main-sub-showcase figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-sub-showcase figure figcaption {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#main-sub-showcase img {
+    width: 100px;
+    height: 100px;
 }
