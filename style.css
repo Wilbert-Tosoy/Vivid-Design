@@ -199,6 +199,7 @@ main {
 
 #new-tech #nt p {
     text-align: justify;
+    font-size: small;
 }
 
 #new-tech #peoples {
@@ -239,4 +240,95 @@ main {
     outline: none;
     border: none;
     background-color: var(--light-pink);
+}
+
+#new-tech :is(button:focus, button:hover) {
+    transform: scale(0.9);
+}
+
+/* Testimonials */
+#testimonials {
+    width: 80vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#testimonials #main-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+}
+
+#testimonials #main-testimonial #p_title {
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+
+#testimonials #main-testimonial h2 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#testimonials #main-testimonial p {
+    font-size: small;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#testimonials #main-testimonial #name {
+    font-size: larger;
+    font-weight: 700;
+    color: var(--light-pink);
+    color: var(--pink);
+}
+
+#testimonials .mini-section img {
+    width: 20px;
+    height: 20px;
+}
+
+#contact-header {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+#contact {
+    display: flex;
+    width: 80vw;
+}
+
+#contact #picture img {
+    width: 300px;
+    height: 300px;
+}
+
+#contact #form #form-text {
+    margin-bottom: 20px;
+}
+
+#contact #form #form-input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#contact #form #form-input #fullname {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#contact #form #form-input #email {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#contact #form #form-input #message {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
 }
