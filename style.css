@@ -498,3 +498,25 @@ footer {
     color: var(--light-pink);
     margin-bottom: 20px;
 }
+
+/* Sub Footer */
+#sub-footer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#sub-footer p {
+    font-size: x-small;
+}
+
+#country {
+    display: flex;
+    align-items: center;
+}
+
+#country img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
