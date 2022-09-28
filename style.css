@@ -176,6 +176,7 @@ main {
     width: 80vw;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 #new-tech #nt {
@@ -383,6 +384,7 @@ footer {
     align-items: center;
     background-color: var(--gray);
     padding-top: 30px;
+    margin-top: 100px;
     height: 100%;
 }
 
@@ -408,6 +410,7 @@ footer {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 50px;
 }
 
 #footer-container h3 {
@@ -478,4 +481,20 @@ footer {
 
 #footer-container #newsletter img {
     width: 10px;
+}
+
+#footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+#footer-icons img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    color: var(--light-pink);
+    margin-bottom: 20px;
 }
