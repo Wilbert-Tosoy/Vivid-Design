@@ -25,7 +25,7 @@ header {
 #header-container {
     display: flex;
     width: 80vw;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 10px;
 }
 
@@ -166,4 +166,77 @@ main {
 #main-sub-showcase img {
     width: 100px;
     height: 100px;
+}
+
+/* New Technologies */
+#new-tech {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-tech #nt {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#new-tech #nt #p1 {
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#new-tech #nt h2 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#new-tech #nt p {
+    text-align: justify;
+}
+
+#new-tech #peoples {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+#new-tech #peoples figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-tech #peoples figure figcaption {
+    margin-top: 10px;
+}
+
+#new-tech #peoples figure figcaption::first-line {
+    font-weight: 600;
+}
+
+#new-tech #peoples img {
+    width: 120px;
+    height: 120px;
+}
+
+#new-tech #peoples figure p {
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+#new-tech button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--light-pink);
 }
