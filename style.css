@@ -25,7 +25,7 @@ header {
 #header-container {
     display: flex;
     width: 80vw;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 10px;
 }
 
@@ -85,7 +85,7 @@ main {
 #showcase-container {
     display: flex;
     width: 80vw;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 50vh;
     margin-bottom: 50px;
 }
