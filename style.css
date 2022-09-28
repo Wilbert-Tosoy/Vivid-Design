@@ -371,5 +371,5 @@ main {
     height: 100%;
     display: flex;
     align-self: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
